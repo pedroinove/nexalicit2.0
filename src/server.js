@@ -54,6 +54,6 @@ app.use((err, _req, res, _next) => {
 });
 
 // Boot
-app.listen(port, () => {
-  console.log(`✅ Nexalicit API rodando na porta ${port}`);
+app.listen(port, "0.0.0.0", () => {
+  console.log(`✅ Nexalicit API running on port ${port}`);
 });
