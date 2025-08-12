@@ -1,6 +1,0 @@
-# UPDATE - path: .gitignore
-node_modules
-.env
-.DS_Store
-netlify.toml
-netlify_functions/
